@@ -1,15 +1,9 @@
 
-This example is a simple ghz circuit being sent to the IonQ Aria simulator. This was created just as an exercise using Javascript for no reason other then curiosity. 
+This example is the simple three-qubit GHZ circuit being sent to the IonQ Aria simulator (from the [IonQ user docs](https://docs.ionq.com/guides/direct-api-submission)). This version was created as an exercise using Javascript for no reason other then curiosity. 
 
-The example we give in the docs uses curl and is far more sensible to do so... use that.  
+The example we give in the docs uses curl and is far more sensible to do so... use that. But either way, [get your API key first](https://docs.ionq.com/guides/managing-api-keys). 
 
-See the IonQ Developer docs here:
-
-- https://docs.ionq.com/guides/direct-api-submission
-
-And get your API key per here:
-
-- https://docs.ionq.com/guides/managing-api-keys
+## How to run these examples
 
 If you want to run this example then you have two ways to do so. The first example uses the API key hardcoded in the file, and the other uses an environment file that sits in the same folder as the scripts. This second example is closer to what we might do if we were building an application or sharing these resources across a team, where the abstraction of the (private) API key from the script is recommended.
 
@@ -34,8 +28,7 @@ Job submitted successfully: {
 }
 ```
 
-
-# Environment variable version
+## Environment variable version
 
 - check out the repo
 - run `npm install` from the project root to install the packages required
@@ -54,3 +47,7 @@ Job submitted successfully: {
   session_id: null
 }
 ```
+
+## What next?
+
+See the rest of the workflow in the [IonQ user docs](https://docs.ionq.com/guides/direct-api-submission).
